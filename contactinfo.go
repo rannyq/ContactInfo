@@ -10,12 +10,16 @@ type FileStorage struct {
 }
 
 type ContactInfo struct {
-	ID     string
+	ID     int
 	Name   string
 	Street string
 	City   string
 	Zip    string
 	Phone  string
+}
+
+type Contacts struct {
+	Contacts []ContactInfo
 }
 
 type Storage interface {
