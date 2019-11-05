@@ -14,6 +14,7 @@ type ContactInfo struct {
 	Name   string
 	Street string
 	City   string
+	State  string
 	Zip    string
 	Phone  string
 }
